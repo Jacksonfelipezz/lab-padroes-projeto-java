@@ -1,10 +1,15 @@
 package com.jackson.gof;
 
+import com.jackson.gof.singleton.SingletonEager;
+import com.jackson.gof.singleton.SingletonLazy;
+import com.jackson.gof.singleton.SingletonLazyHolder;
+import com.jackson.gof.strategy.*;
+
 public class Test {
 
     public static void main(String[] args) {
 
-        // Teste relacionados ao Design Pattern Singleton:
+        // Singleton:
 
         SingletonLazy lazy = SingletonLazy.getInstancia();
         System.out.println(lazy);
@@ -20,5 +25,22 @@ public class Test {
         System.out.println(lazyHolder);
         lazyHolder = SingletonLazyHolder.getInstancia();
         System.out.println(lazyHolder);
+
+        // Strategy
+
+        Comportamento normal = new ComportamentoNormal();
+        Comportamento defensivo = new ComportamentoDefensivo();
+        Comportamento agressivo = new ComportamentoAgressivo();
+
+        Robo robo = new Robo();
+        robo.setComportamento(normal);
+        robo.mover();
+        robo.mover();
+        robo.setComportamento(defensivo);
+        robo.mover();
+        robo.setComportamento(agressivo);
+        robo.mover();
+        robo.mover();
+        robo.mover();
     }
 }

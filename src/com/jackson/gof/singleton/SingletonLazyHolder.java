@@ -1,6 +1,6 @@
-package com.jackson.gof;
+package com.jackson.gof.singleton;
 
-import static com.jackson.gof.SingletonLazyHolder.InstanceHolder.instancia;
+import static com.jackson.gof.singleton.SingletonLazyHolder.InstanceHolder.instancia;
 
 /*
 * Singleton "Lazy Holder"

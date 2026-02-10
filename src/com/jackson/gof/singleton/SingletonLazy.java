@@ -1,4 +1,4 @@
-package com.jackson.gof;
+package com.jackson.gof.singleton;
 /*
 * Singleton "preguicoso"
 *
