@@ -1,16 +1,21 @@
-# Padrões de Projeto em Java
+# 🏗️ Design Patterns com Java
 
-Projeto com exemplos simples de Design Patterns em Java.
+> Estudo e implementação dos principais padrões de projeto (GoF) para a criação de sistemas robustos e de fácil manutenção.
 
-## Criacionais
-**Singleton** – Garante que exista apenas uma instância da classe durante toda a aplicação, fornecendo um ponto único de acesso.  
-**Factory Method** – Define um método para criar objetos, deixando a decisão da classe concreta para a implementação, reduzindo acoplamento.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Design Patterns](https://img.shields.io/badge/Patterns-GoF-brightgreen?style=for-the-badge)
 
-## Estruturais
-**Adapter** – Permite que classes com interfaces incompatíveis trabalhem juntas por meio de uma classe intermediária.  
-**Decorator** – Adiciona comportamentos a um objeto dinamicamente sem alterar sua classe original.
+## 📌 Sobre o Projeto
+Este laboratório foca na aplicação prática de padrões de projeto fundamentais. O código aqui presente demonstra a capacidade de resolver problemas comuns de design de software utilizando soluções consagradas pela engenharia de software.
 
-## Comportamentais
-**Strategy** – Encapsula algoritmos e permite alterná-los em tempo de execução sem alterar o código cliente.  
-**Observer** – Define uma dependência onde vários objetos são automaticamente notificados quando outro muda de estado.
+## 🧩 Padrões Implementados
+- **Singleton:** Garantindo uma instância única para componentes críticos.
+- **Strategy:** Alternando algoritmos de forma dinâmica e limpa.
+- **Facade:** Simplificando a interface de subsistemas complexos.
 
+## 🚀 Por que isso é importante?
+A utilização de Design Patterns demonstra que o desenvolvedor não apenas "escreve código", mas projeta soluções que são escaláveis, testáveis e fáceis de manter por outros membros da equip.
+
+## 🛠️ Tecnologias
+- **Java**
+- **Conceitos de POO Avançada** (Abstração, Encapsulamento, Polimorfismo)
